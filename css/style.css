@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-color: lightgrey;
+}
+
+/*Botones*/
+
+.nav {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.btn {
+    margin: 0.1rem;
+    text-transform: uppercase;
+}
+
+header #logo img {
+    margin: 5px;
+    float: left;
+    width: 120px;
+    border-radius: 100%;
+}
+
+.nav .botones {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav #title {
+    float: left;
+}
+
+/*letras*/
+p {
+    color: #38a4b7;
+    font-size: 100%;
+    line-height: 90%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+}
+
+h3 {
+    color: #393E46;
+    font-size: 150%;
+    font-weight: 500;
+    line-height: 120%;
+    padding: 0%;
+    text-indent: 2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    color: #A5C9CA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #5c5c5c;
+}
+
+/*Sliders*/
+.slide-wrap {
+    background-color: #1d1c1c9c;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+#sliderImg {
+    height: 100%;
+    width: auto;
+}
+
+/*JQUERY*/
+
+.bx-wrapper {
+    margin-top: 0%;
+    padding-top: 0%;
+    /*como superpone el jquery sin important?*/
+    background: #c10000 !important;
+    border: 5px solid #0bf !important;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+}
+
+#wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.bx-wrapper {
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #db00b8;
+    border: 5px solid #fff;
+    background: #fff;
+}
